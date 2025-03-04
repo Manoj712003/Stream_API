@@ -9,9 +9,9 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		int[] ar = {1,2,3,4,5};
-		//IntStream c = Arrays.stream(ar);
-		//c = c.sorted();
-		//System.out.println(c.count());
+		IntStream c = Arrays.stream(ar);
+		c = c.sorted();
+		System.out.println(c.count());
 		
 		Arrays.stream(ar).sorted().forEach(no -> System.out.println(no));
 		
